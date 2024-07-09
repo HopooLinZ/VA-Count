@@ -1,5 +1,5 @@
 # VA-Count
-[ECCV 2024] An officical implementation of "Zero-shot Object Counting with Good Exemplars" 
+[ECCV 2024] Zero-shot Object Counting with Good Exemplars
 ![figure](figure.png)
 # Zero-shot Object Counting with Good Exemplars
 ## News
