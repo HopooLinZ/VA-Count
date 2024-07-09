@@ -1,6 +1,6 @@
 # VA-Count
 [ECCV 2024] Zero-shot Object Counting with Good Exemplars
-[![arXiv](https://img.shields.io/badge/VA-Count-arXiv-red.svg)]([https://arxiv.org/abs/2407.04621](https://arxiv.org/abs/2407.04948))
+[[paper](https://arxiv.org/abs/2407.04948)]   
 ![figure](figure.png)
 # Zero-shot Object Counting with Good Exemplars
 ## News
