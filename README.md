@@ -25,8 +25,15 @@ https://github.com/IDEA-Research/GroundingDINO .
 We are very grateful for the Grounding DINO approach, which has been instrumental in our work！
 Download datasets
 
-## datasets:
+## Datasets
 
 * [FSC147](https://github.com/cvlab-stonybrook/LearningToCountEverything)
 
 * [CARPK](https://lafi.github.io/LPN/)
+
+## Generate exemplars
+```
+python groundingbi223.py
+```
+## Inference
+## Train
