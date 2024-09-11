@@ -20,6 +20,6 @@ pip install imgaug
 pip install opencv-python
 pip3 install hub
 ```
---For more information on Grounding DINO, please refer to the following link: 
+### For more information on Grounding DINO, please refer to the following link: 
 https://github.com/IDEA-Research/GroundingDINO
 We are very grateful for the Grounding DINO approach, which has been instrumental in our work！
