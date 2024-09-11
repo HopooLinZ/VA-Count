@@ -33,7 +33,7 @@ Download datasets
 
 ## Generate exemplars
 ```
-python groundingbi223.py
+python groundingbi.py
 ```
 ## Inference
 ## Train
