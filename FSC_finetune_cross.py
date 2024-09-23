@@ -101,7 +101,7 @@ def get_args_parser():
                         help='url used to set up distributed training')
 
     # Logging parameters
-    parser.add_argument("--title", default="CounTR_finetuning2", type=str)
+    parser.add_argument("--title", default="count", type=str)
     parser.add_argument("--wandb", default="240227", type=str)
     parser.add_argument("--team", default="wsense", type=str)
     parser.add_argument("--wandb_id", default=None, type=str)
@@ -225,7 +225,7 @@ def main(args):
                     project=args.wandb,
                     name=args.title,
                     # entity=args.team,
-                    tags=["CounTR", "finetuning"],
+                    tags=["count", "finetuning"],
                     id=args.wandb_id,
                 )
 
