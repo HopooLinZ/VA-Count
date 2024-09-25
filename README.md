@@ -30,9 +30,14 @@ We are very grateful for the Grounding DINO approach, which has been instrumenta
 
 * [CARPK](https://lafi.github.io/LPN/)
 
+## Inference
+```
+python FSC_test_cross\(few-shot\).py --output_dir ./data/out/results_base --resume ./data/out/finetune/checkpoint__finetuning_minMAE.pth --box_bound 3
+
+```
 ## Generate exemplars
 ```
 python groundingbi.py
 ```
-## Inference
+
 ## Train
