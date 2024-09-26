@@ -63,6 +63,10 @@ python groundingbi.py
 ```
 
 ## Train
+```
+CUDA_VISIBLE_DEVICES=5 python FSC_train.py --epochs 1000 --batch_size 8 --lr 1e-5 --output_dir ./data/out/
+```
+
 ## Citation
 
 ```
