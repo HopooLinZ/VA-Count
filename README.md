@@ -31,8 +31,9 @@ We are very grateful for the Grounding DINO approach, which has been instrumenta
 * [CARPK](https://lafi.github.io/LPN/)
 
 ## Inference
++  To have better performance,you can download the pretrained source model from [Baidu-Disk](https://pan.baidu.com/s/11sbdDYLDfTOIPx5pZvBpmw?pwd=paeh), passward:paeh
 ```
-python FSC_test_cross\(few-shot\).py --output_dir ./data/out/results_base --resume ./data/out/finetune/checkpoint__finetuning_minMAE.pth
+python FSC_test_cross\(few-shot\).py --output_dir ./data/out/results_base --resume ./data/checkpoint_FSC.pth
 
 ```
 ## Generate exemplars
