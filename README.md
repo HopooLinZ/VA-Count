@@ -60,3 +60,13 @@ python groundingbi.py
 ```
 
 ## Train
+## Citation
+
+```
+@inproceedings{zhu2024zero,
+  title={Zero-shot Object Counting with Good Exemplars},
+  author={Zhu, Huilin and Yuan, Jingling and Yang, Zhengwei and Guo, Yu and Wang, Zheng and Zhong, Xian and He, Shengfeng},
+  booktitle={Proceedings of the European Conference on Computer Vision},
+  year={2024}
+}
+```
