@@ -53,7 +53,6 @@ Preparing the datasets as follows:
 +  For inference, you can download the model from [Baidu-Disk](https://pan.baidu.com/s/11sbdDYLDfTOIPx5pZvBpmw?pwd=paeh), passward:paeh
 ```
 python FSC_test.py --output_dir ./data/out/results_base --resume ./data/checkpoint_FSC.pth
-
 ```
 ## Generate exemplars
 ```
