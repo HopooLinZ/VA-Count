@@ -30,6 +30,25 @@ We are very grateful for the Grounding DINO approach, which has been instrumenta
 
 * [CARPK](https://lafi.github.io/LPN/)
 
+Preparing the datasets as follows:
+
+```
+./data/
+|--FSC147
+|  |--images_384_VarV2
+|  |  |--2.jpg
+|  |  |--3.jpg
+|  |--gt_density_map_adaptive_384_VarV2
+|  |  |--2.npy
+|  |  |--3.npy
+|  |--annotation_FSC147_384.json
+|  |--Train_Test_Val_FSC_147.json
+|  |--ImageClasses_FSC147.txt
+|  |--train.txt
+|  |--test.txt
+|  |--val.txt
+
+```
 ## Inference
 +  For inference, you can download the model from [Baidu-Disk](https://pan.baidu.com/s/11sbdDYLDfTOIPx5pZvBpmw?pwd=paeh), passward:paeh
 ```
