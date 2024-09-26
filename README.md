@@ -47,7 +47,10 @@ Preparing the datasets as follows:
 |  |--train.txt
 |  |--test.txt
 |  |--val.txt
-
+|--CARPK/
+|  |--Annotations/
+|  |--Images/
+|  |--ImageSets/
 ```
 ## Inference
 +  For inference, you can download the model from [Baidu-Disk](https://pan.baidu.com/s/11sbdDYLDfTOIPx5pZvBpmw?pwd=paeh), passward:paeh
