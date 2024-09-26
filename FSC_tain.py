@@ -74,7 +74,7 @@ def get_args_parser():
     parser.add_argument('--device', default='cuda',
                         help='device to use for training / testing')
     parser.add_argument('--seed', default=0, type=int)
-    parser.add_argument('--resume', default='./data/out/pre_4_dir/checkpoint-300.pth',
+    parser.add_argument('--resume', default='./data/checkpoint.pth',
                         help='resume from checkpoint')
     parser.add_argument('--do_resume', action='store_true',
                         help='Resume training (e.g. if crashed).')
