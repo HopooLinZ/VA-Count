@@ -95,3 +95,5 @@ CUDA_VISIBLE_DEVICES=0 python FSC_train.py --epochs 1000 --batch_size 8 --lr 1e-
 
 ## Acknowledgement
 This project is based on the implementation from [CounTR](https://github.com/Verg-Avesta/CounTR), we are very grateful for this work and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO).
+
+#### If you have any questions, please get in touch with me (jsj_zhl@whut.edu.cn).
