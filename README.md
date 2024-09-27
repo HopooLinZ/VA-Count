@@ -4,6 +4,7 @@
 ![figure](figure.png)
 # Zero-shot Object Counting with Good Exemplars
 ## News🚀
+* **2024.09.27**: Our code is released.
 * **2024.09.26**: Our inference code has been updated, and the code for selecting exemplars and the training code will be coming soon.
 * **2024.07.02**: VA-Count is accepted by ECCV2024.
 ## Overview 
