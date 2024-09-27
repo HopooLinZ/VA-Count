@@ -62,6 +62,7 @@ python FSC_test.py --output_dir ./data/out/results_base --resume ./data/checkpoi
 python datasetmake.py
 python biclassify.py
 ```
++  You can also directly download the model from [Baidu-Disk](https://pan.baidu.com/s/1fOF0giI3yQpvGTiNFUI7cQ?pwd=psum), passward:psum Save it in ./data/out/classify/
 ## Generate exemplars
 ```
 python grounding_pos.py --root_path ./data/FSC147/
@@ -76,6 +77,7 @@ CUDA_VISIBLE_DEVICES=0 python FSC_pretrain.py \
     --warmup_epochs 10 \
     --blr 1.5e-4 --weight_decay 0.05
 ```
++  You can also directly download the pre-train model from [Baidu-Disk](https://pan.baidu.com/s/1_-w_9I4bPA66pMZkHTrdrg?pwd=xynw), passward:xynw Save it in ./data/ 
 ```
 CUDA_VISIBLE_DEVICES=0 python FSC_train.py --epochs 1000 --batch_size 8 --lr 1e-5 --output_dir ./data/out/
 ```
@@ -90,3 +92,6 @@ CUDA_VISIBLE_DEVICES=0 python FSC_train.py --epochs 1000 --batch_size 8 --lr 1e-
   year={2024}
 }
 ```
+
+## Acknowledgement
+This project is based on the implementation from [CounTR](https://github.com/Verg-Avesta/CounTR), we are very grateful for this work.
