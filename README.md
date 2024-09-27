@@ -21,7 +21,7 @@ pip install opencv-python
 pip3 install hub
 ```
 ### For more information on Grounding DINO, please refer to the following link: 
-https://github.com/IDEA-Research/GroundingDINO .
+[GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
 We are very grateful for the Grounding DINO approach, which has been instrumental in our work！
 
 ## Datasets
@@ -94,4 +94,4 @@ CUDA_VISIBLE_DEVICES=0 python FSC_train.py --epochs 1000 --batch_size 8 --lr 1e-
 ```
 
 ## Acknowledgement
-This project is based on the implementation from [CounTR](https://github.com/Verg-Avesta/CounTR), we are very grateful for this work.
+This project is based on the implementation from [CounTR](https://github.com/Verg-Avesta/CounTR), we are very grateful for this work and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO).
