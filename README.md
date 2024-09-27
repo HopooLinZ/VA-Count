@@ -64,7 +64,8 @@ python biclassify.py
 ```
 ## Generate exemplars
 ```
-python groundingbi.py
+python grounding_pos.py
+python grounding_neg.py
 ```
 
 ## Train
