@@ -64,8 +64,8 @@ python biclassify.py
 ```
 ## Generate exemplars
 ```
-python grounding_pos.py
-python grounding_neg.py
+python grounding_pos.py --root_path ./data/FSC147/
+python grounding_neg.py --root_path ./data/FSC147/
 ```
 
 ## Train
