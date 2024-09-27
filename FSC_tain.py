@@ -59,9 +59,9 @@ def get_args_parser():
     # Dataset parameters
     parser.add_argument('--data_path', default='./data/FSC147/', type=str,
                         help='dataset path')
-    parser.add_argument('--anno_file', default='annotation_FSC147_384.json', type=str,
+    parser.add_argument('--anno_file', default='annotation_FSC147_pos.json', type=str,
                         help='annotation json file for positive samples')
-    parser.add_argument('--anno_file_negative', default='./data/FSC147/annotation_FSC147_neg2.json', type=str,
+    parser.add_argument('--anno_file_negative', default='./data/FSC147/annotation_FSC147_neg.json', type=str,
                         help='annotation json file for negative samples')
     parser.add_argument('--data_split_file', default='Train_Test_Val_FSC_147.json', type=str,
                         help='data split json file')
