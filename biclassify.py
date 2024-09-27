@@ -158,6 +158,6 @@ for epoch in range(1, 11):
     accuracy = test(model, device, test_loader)
     if accuracy > best_accuracy:
         best_accuracy = accuracy
-        torch.save(model.state_dict(), './data/out/classify2/best_model.pth')
+        torch.save(model.state_dict(), './data/out/classify/best_model.pth')
         print(f'Best model saved with accuracy: {best_accuracy:.2f}%')
 
