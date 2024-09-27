@@ -57,12 +57,24 @@ Preparing the datasets as follows:
 ```
 python FSC_test.py --output_dir ./data/out/results_base --resume ./data/checkpoint_FSC.pth
 ```
+## Single and Multiple Object Classifier Training
+```
+python datasetmake.py
+python biclassify.py
+```
 ## Generate exemplars
 ```
 python groundingbi.py
 ```
 
 ## Train
+
+```
+CUDA_VISIBLE_DEVICES=0 python FSC_pretrain.py \
+    --epochs 500 \
+    --warmup_epochs 10 \
+    --blr 1.5e-4 --weight_decay 0.05
+```
 ```
 CUDA_VISIBLE_DEVICES=0 python FSC_train.py --epochs 1000 --batch_size 8 --lr 1e-5 --output_dir ./data/out/
 ```
